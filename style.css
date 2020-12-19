@@ -7,3 +7,12 @@
 body {
     background-color: black;
 }
+.col-12.content{
+    background-color: #4a4a4a;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
