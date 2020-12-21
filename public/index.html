@@ -75,19 +75,31 @@ Name: Danindu Marasinghe
                     <br>
 
                     <!--Info form-->
-                    <h5 class="text-center">Project Type and Requirements:</h5>
-
+                    <h5 class="form-header">Project Type and Requirements:</h5>
+                    
                     <div class="row">
-                        <div class="dropdown show">
-                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Project Type
-                            </a>
-                            
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">Essay</a>
-                                <a class="dropdown-item" href="#">Slideshow</a>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="projectTypeDropdown">Project Type</label>
+                                <select class="form-control" id="projectTypeDropdown">
+                                <option>Essay</option>
+                                <option>Slideshow</option>
+                                </select>
                             </div>
-                            </div>
+                        </div>
+                        <div class="col inline-input">
+                                <label class="d-flex flex-row-reverse" for="numTextbox">Requirements</label>
+                                <input class="form-control" id="numTextbox" type="text" placeholder="#">
+                        </div>
+                        <div class="col">
+                            <label for="unitDropdown">Unit</label>
+                            <select class="form-control" id="unitDropdown">
+                            <option>Pages</option>
+                            <option>Words</option>
+                            <option>Paragraphs</option>
+                            <option>Sections</option>
+                            </select>
+                        </div>
                     </div>
                 </div> <!--end content column-->
                 <div class="col"></div>
