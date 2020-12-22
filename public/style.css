@@ -48,6 +48,7 @@ input{
 .inline-input{
     padding-left: 40px;
 }
-#numTextbox{
-    margin-left: auto;
+#unitDropdown{
+    margin-left: 10px;
+    width: 300px;
 }
