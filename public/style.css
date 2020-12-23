@@ -42,7 +42,7 @@ h3{
 .form-header{
     margin-bottom: 15px;
 }
-input{
+input.num{
     width: 80px !important;
 }
 .inline-input{
