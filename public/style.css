@@ -14,6 +14,7 @@ body {
 .col-12.content{
     background-color: white;
     margin-top: 25px;
+    margin-bottom: 25px;
     border-radius: 15px;
     color: black;
     padding-top: 15px;
@@ -54,4 +55,8 @@ input.num{
 }
 .form-check-label{
     margin-left: 33px;
+}
+button#btn-cal{
+    margin-left: auto;
+    margin-right: auto;
 }
